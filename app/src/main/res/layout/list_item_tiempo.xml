@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/fechaaux"
+        android:layout_width="wrap_content"
+        android:textSize="22dp"
+        android:layout_height="wrap_content"
+        android:text="fecha"/>
+    <TextView
+        android:id="@+id/fechalit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_toRightOf="@id/fechaaux"
+        android:text=""/>
+    <TextView
+        android:id="@+id/temperaturaaux"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/fechaaux"
+        android:textSize="22dp"
+        android:layout_height="wrap_content"
+        android:text="temp"/>
+
+    <TextView
+        android:id="@+id/temperaturalit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fechalit"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@id/fechaaux"
+        android:text=""
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/humedadaux"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/temperaturaaux"
+        android:textSize="22dp"
+        android:layout_height="wrap_content"
+        android:text="humed"/>
+    <TextView
+        android:id="@+id/humedadlit"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/temperaturalit"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_toRightOf="@id/humedadaux"
+        android:text=""/>
+
+</RelativeLayout>
